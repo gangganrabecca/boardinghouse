@@ -1,3 +1,4 @@
+cat > requirements.txt << 'EOF'
 fastapi==0.104.1
 uvicorn==0.24.0
 neo4j==5.14.0
@@ -6,3 +7,4 @@ python-multipart==0.0.6
 pydantic==1.10.12
 python-jose[cryptography]==3.3.0
 email-validator==2.1.0
+EOF
